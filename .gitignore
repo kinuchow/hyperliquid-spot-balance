@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Credentials and config
+# Specific credential files
+valid-dragon-458715-h6-3cc236e3dcf2.json
+credentials.json
+
+# Config with sensitive data
+config.json
+
+# Allow example config
+!config.json.example
+
+# Virtual Environment
+venv/
+ENV/
+
+# Logs
+*.log
+
+# OS specific
+.DS_Store
